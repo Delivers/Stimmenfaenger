@@ -16,6 +16,46 @@ This project combines real-time speech-to-text transcription with keyword extrac
 
 ---
 
+\## 📝 To Do
+
+# Animation:
+- Background textures
+- Text with Displacement
+- Reihen einzeln animieren
+- Stable Diffusion ?
+- Text animieren
+- Color change over time
+- What to so with Empty space
+- Y-Axis Animation more random
+- Typography ?
+
+# System:
+- Watchdog
+
+# Speech-to-Text:
+- Google API einbauen
+- Python Script in Startup && Send UDP clock for restart
+
+# Startup Routing:
+- Beamer autostart
+- Screens Autostart, WOL
+
+# Microphone
+- Verlängerung Kabel
+- Raspberry Pi ?
+
+# FTP upload:
+- Ftp upload
+- Webseite bauen
+
+# Aufbau:
+- Beamer Halterung ?
+- Auto ausleihen
+- 
+
+
+# Abbau:
+- Bis wann ?
 
 
 \## 📦 Installation

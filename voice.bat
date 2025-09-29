@@ -3,7 +3,7 @@ setlocal
 
 REM ======= KONFIGURATION =======
 set "ENV_NAME=Stimmenfaenger"
-set "WORKDIR=C:\Users\simon\Documents\Heidenheim\Stimmenfaenger\RealTimeSTT-"
+set "WORKDIR=C:\Users\User\Documents\Stimmenfaenger"
 
 REM ======= Conda initialisieren (activate.bat) =======
 call "%USERPROFILE%\anaconda3\Scripts\activate.bat"
@@ -20,7 +20,7 @@ REM ======= Arbeitsverzeichnis wechseln =======
 cd /d "%WORKDIR%"
 
 REM ======= Python-Skript starten =======
-python tests\simple_test_UDP.py
+python simple_test_UDP.py
 
 REM ======= Fenster offen halten =======
 echo.
