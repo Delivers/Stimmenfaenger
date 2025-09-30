@@ -14,6 +14,7 @@ This project combines real-time speech-to-text transcription with keyword extrac
 
 
 
+
 ---
 
 \## 📝 To Do
@@ -48,10 +49,13 @@ This project combines real-time speech-to-text transcription with keyword extrac
 - Ftp upload
 - Webseite bauen
 
+# Hardware:
+- Box bauen
+- HDMI-Network testen
+
 # Aufbau:
 - Beamer Halterung ?
 - Auto ausleihen
-- 
 
 
 # Abbau:
@@ -72,9 +76,10 @@ Make sure you have Python 3.8–3.10 installed.
 
 ```bash
 
-conda create -n Stimmenfaenger python=3.10
+conda create -n stt python=3.12.8
 
-conda activate Stimmenfaenger
+conda activate stt
+
 
 
 
@@ -89,18 +94,21 @@ pip install -r requirements.txt
 ---
 
 
+\# Download Model: vosk-model-small-de-0.15
 
-\## 🔍 Overview
+https://alphacephei.com/vosk/models
+
+& unzip in /stt folder
 
 
 
-\- \*\*Speech Recognition\*\*: Real-time transcription using the \[`RealtimeSTT`](https://github.com/Uberi/speech\_recognition) interface.
+\## 🔍 Overview how to start:
 
-\- \*\*Keyword Extraction\*\*: Uses \[KeyBERT](https://github.com/MaartenGr/KeyBERT) with the `sentence-transformers/LaBSE` model to score and extract keywords from the transcribed speech.
 
-\- \*\*Language Support\*\*: Configured for \*\*German (de)\*\* but can be adjusted.
+python -u stt_de_keywords_top5_unigrams.py --device 1 --model "C:\Users\simon\Documents\Stimmenfaenger\stt\vosk-model-small-de-0.15"
 
-\- \*\*Live Loop\*\*: Continuously listens, transcribes, extracts, and prints keywords until interrupted.
+
+
 
 
 
