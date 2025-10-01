@@ -2,8 +2,8 @@
 setlocal
 
 REM ======= KONFIGURATION =======
-set "ENV_NAME=sst"
-set "WORKDIR=C:\Users\simon\Documents\Stimmenfaenger\stt"
+set "ENV_NAME=stt"
+set "WORKDIR=C:\Users\User\Documents\Stimmenfaenger\stt"
 
 REM ======= Conda initialisieren (activate.bat) =======
 call "%USERPROFILE%\anaconda3\Scripts\activate.bat"
@@ -20,7 +20,7 @@ REM ======= Arbeitsverzeichnis wechseln =======
 cd /d "%WORKDIR%"
 
 REM ======= Python-Skript starten =======
-python -u stt_de_keywords_top5_unigrams.py --device 1 --model "C:\Users\simon\Documents\Stimmenfaenger\stt\vosk-model-small-de-0.15"
+python -u stt_de_keywords_top5_unigrams.py --device 1 --model "C:\Users\User\Documents\Stimmenfaenger\stt\vosk-model-small-de-0.15"
 
 
 REM ======= Fenster offen halten =======

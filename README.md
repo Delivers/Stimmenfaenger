@@ -29,6 +29,7 @@ This project combines real-time speech-to-text transcription with keyword extrac
 - What to so with Empty space
 - Y-Axis Animation more random
 - Typography ?
+- Y-Axis count anpassen an Word count
 
 # System:
 - Watchdog
@@ -52,6 +53,10 @@ This project combines real-time speech-to-text transcription with keyword extrac
 # Hardware:
 - Box bauen
 - HDMI-Network testen
+- Mobile Internet einpacken
+- Screen Power Saving Mode ?
+- Screen Zeitschaltuhr
+- Kamera
 
 # Aufbau:
 - Beamer Halterung ?
@@ -85,13 +90,12 @@ conda activate stt
 
 \# Install Libary
 
+python -m pip install --upgrade pip
+python -m pip install sounddevice vosk pydub ffmpeg-python yake
 
 
 pip install -r requirements.txt
 
-
-
----
 
 
 \# Download Model: vosk-model-small-de-0.15
@@ -105,7 +109,16 @@ https://alphacephei.com/vosk/models
 \## 🔍 Overview how to start:
 
 
-python -u stt_de_keywords_top5_unigrams.py --device 1 --model "C:\Users\simon\Documents\Stimmenfaenger\stt\vosk-model-small-de-0.15"
+\# List input devices and pass one explicitly
+
+python -c "import sounddevice as sd; [print(i, d['name']) for i,d in enumerate(sd.query_devices())]"
+
+
+
+\# Pick the mic index and run (example uses device 1):
+
+
+python -u stt_de_keywords_top5_unigrams.py --device 1 --model "C:\Users\User\Documents\Stimmenfaenger\stt\vosk-model-small-de-0.15"
 
 
 
