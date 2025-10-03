@@ -30,6 +30,7 @@ This project combines real-time speech-to-text transcription with keyword extrac
 - Y-Axis Animation more random
 - Typography ?
 - Y-Axis count anpassen an Word count
+- Fallback Text Data
 
 # System:
 - Watchdog
