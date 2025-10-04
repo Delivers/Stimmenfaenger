@@ -36,7 +36,6 @@ This project combines real-time speech-to-text transcription with keyword extrac
 - Watchdog
 
 # Speech-to-Text:
-- Google API einbauen
 - Python Script in Startup && Send UDP clock for restart
 
 # Startup Routing:
@@ -58,10 +57,16 @@ This project combines real-time speech-to-text transcription with keyword extrac
 - Screen Power Saving Mode ?
 - Screen Zeitschaltuhr
 - Kamera
+- Rollwagen für Computer / Roller
+- HDMI Kabel 
+- Controll Monitor
+- Tastatur & Maus.
+- Wifi Antenne.
+- HDMI Dongle
 
 # Aufbau:
 - Beamer Halterung ?
-- Auto ausleihen
+- Traverse Ausleihen
 
 
 # Abbau:
