@@ -51,15 +51,12 @@ This project combines real-time speech-to-text transcription with keyword extrac
 # Hardware:
 - Box bauen
 - Screen Power Saving Mode ?
-<<<<<<< HEAD
-=======
 - Screen Zeitschaltuhr
 - Rollwagen für Computer / Roller
 - Controll Monitor
 - Tastatur & Maus.
 - HDMI Dongle
 - Klebeband für Kabel makieren
->>>>>>> 1277e1e49f3a97e4ef3e5c0c7da1fc5b5c97f1bd
 
 # Aufbau:
 - Beamer Halterung ?
