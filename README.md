@@ -28,9 +28,7 @@ This project combines real-time speech-to-text transcription with keyword extrac
 - Color change over time
 - What to so with Empty space
 - Y-Axis Animation more random
-- Typography ?
 - Y-Axis count anpassen an Word count
-- Fallback Text Data
 
 # System:
 - Watchdog
@@ -56,8 +54,6 @@ This project combines real-time speech-to-text transcription with keyword extrac
 - HDMI-Network testen
 - Mobile Internet einpacken
 - Screen Power Saving Mode ?
-- Screen Zeitschaltuhr
-- Kamera
 
 # Aufbau:
 - Beamer Halterung ?
@@ -118,11 +114,14 @@ python -c "import sounddevice as sd; [print(i, d['name']) for i,d in enumerate(s
 
 \# Pick the mic index and run (example uses device 1):
 
+python3 stt_de_keywords_top5_unigrams-fallback.py \
+  --model /pfad/zum/vosk-model-de \
+  --quotes-file /pfad/zu/kunst_und_sprache_zitate.txt
 
 python -u stt_de_keywords_top5_unigrams.py --device 1 --model "C:\Users\User\Documents\Stimmenfaenger\stt\vosk-model-small-de-0.15"
 
 
-
+python stt_de_keywords_top5_unigrams-fallback.py --device 1 --model "C:\Users\User\Documents\Stimmenfaenger\stt\vosk-model-small-de-0.15" --quotes-file "C:\Users\User\Documents\Stimmenfaenger\stt\kunst_und_sprache_zitate.txt"
 
 
 
