@@ -52,17 +52,13 @@ This project combines real-time speech-to-text transcription with keyword extrac
 
 # Hardware:
 - Box bauen
-- HDMI-Network testen
-- Mobile Internet einpacken
 - Screen Power Saving Mode ?
 - Screen Zeitschaltuhr
-- Kamera
 - Rollwagen für Computer / Roller
-- HDMI Kabel 
 - Controll Monitor
 - Tastatur & Maus.
-- Wifi Antenne.
 - HDMI Dongle
+- Klebeband für Kabel makieren
 
 # Aufbau:
 - Beamer Halterung ?
