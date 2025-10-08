@@ -20,7 +20,7 @@ REM ======= Arbeitsverzeichnis wechseln =======
 cd /d "%WORKDIR%"
 
 REM ======= Python-Skript starten =======
-python stt_de_keywords_top5_unigrams-fallback.py --device 1 --model "C:\Users\User\Documents\Stimmenfaenger\stt\vosk-model-small-de-0.15" --quotes-file "C:\Users\User\Documents\Stimmenfaenger\stt\kunst_und_sprache_zitate.txt"
+python stt_de_keywords_top5_unigrams-fallback-log.py --device 1 --model "C:\Users\User\Documents\Stimmenfaenger\stt\vosk-model-small-de-0.15" --quotes-file "C:\Users\User\Documents\Stimmenfaenger\stt\kunst_und_sprache_zitate.txt" --log-file "C:\Users\User\Documents\Stimmenfaenger\live_inputs_log.txt"
 
 
 REM ======= Fenster offen halten =======

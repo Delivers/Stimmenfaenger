@@ -35,6 +35,8 @@ This project combines real-time speech-to-text transcription with keyword extrac
 
 # Speech-to-Text:
 - Python Script in Startup && Send UDP clock for restart
+- Random Sprüche aus Alltag !
+- Sätze speichern in Textdatei  mit Timecode !
 
 # Startup Routing:
 - Beamer autostart
@@ -52,10 +54,6 @@ This project combines real-time speech-to-text transcription with keyword extrac
 - Box bauen
 - Screen Power Saving Mode ?
 - Screen Zeitschaltuhr
-- Rollwagen für Computer / Roller
-- Controll Monitor
-- Tastatur & Maus.
-- HDMI Dongle
 - Klebeband für Kabel makieren
 
 # Aufbau:
