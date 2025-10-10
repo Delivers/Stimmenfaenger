@@ -9,7 +9,7 @@ set delay_checkwatchdogfile=60
 set delay_startpatch=440
 set hh=%TIME:~0,2%
 set open=6
-set close=21
+set close=22
 
 :setup
 
