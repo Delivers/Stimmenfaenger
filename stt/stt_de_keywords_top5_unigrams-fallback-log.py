@@ -176,7 +176,7 @@ def main():
     ap.add_argument("--samplerate", type=int, default=16000)
     ap.add_argument("--device", type=int, default=None)
     ap.add_argument("--min-utt-chars", type=int, default=8)
-    ap.add_argument("--inactivity-seconds", type=int, default=60)
+    ap.add_argument("--inactivity-seconds", type=int, default=180)
     ap.add_argument("--fallback-interval", type=int, default=30)
     ap.add_argument("--log-file", type=str, default="live_inputs_log.txt", help="Pfad zur Logdatei für Live-Eingaben.")
     args = ap.parse_args()
